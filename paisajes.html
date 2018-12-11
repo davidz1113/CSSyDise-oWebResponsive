@@ -6,58 +6,70 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width:device-width">
     <link rel="stylesheet" href="css/styles.css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Bad+Script|Righteous|Special+Elite" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/css/font-awesome.min.css">
 </head>
 
-<body style="background:black">
-    <div class="flex-container">
-        <header>
-            <h1>COMENZANDO CON LA FOTOGRAFIA</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="menu">INICIO</a></li>
-                    <li><a href="paisajes.html" class="menu">PAISAJES</a></li>
-                    <li><a href="retratos.html" class="menu">RETRATOS</a></li>
-                </ul>
+<body >
+    <div class="contenedor">
+        <header class="header">
+            <div class="logo">
+                <h1>COMENZANDO CON LA FOTOGRAFIA</h1>
+            </div>
+            <nav class="nav">
+                <a href="index.html">Inicio</a>
+                <a href="paisajes.html">Paisajes</a>
+                <a href="retratos.html">Retratos</a>
             </nav>
         </header>
-        <section id="galeria">
-            <div id="galeria1" class="galeria">
-                <br><img src="imagenes/paisaje1.jpg" style="filter: blur(10px)"><br>
-                <img src="imagenes/paisaje2.jpg" class="img_gris"><br>
-            </div>
-            <div id="galeria2" class="galeria">
-                <br><img src="imagenes/paisaje3.jpg" class="img_gris"><br>
-                <img src="imagenes/paisaje4.jpg"><br>
-            </div>
-            <div id="galeria3" class="galeria">
-                <br><img src="imagenes/paisaje5.jpg" style="filter:sepia(90%)"><br>
-                <img src="imagenes/paisaje6.jpg" class="img_gris"><br>
-            </div>
+
+
+        <section class="main">
+            <article class="imagen1">
+                <img src="imagenes/paisaje1.jpg">
+            </article>
+            <article class="imagen2">
+                <img src="imagenes/paisaje2.jpg">
+            </article>
+            <article class="imagen3">
+                <img src="imagenes/paisaje3.jpg">
+            </article>
+            <article class="imagen2">
+                <img src="imagenes/paisaje4.jpg">
+            </article>
+            <article class="imagen5">
+                <img src="imagenes/paisaje5.jpg">
+            </article>
+            <article class="imagen2">
+                <img src="imagenes/paisaje6.jpg">
+            </article>
         </section>
-        <footer class="footer1">
-            <div id="caja1" class="Cajafooter">
+
+
+        <footer class="footer">
+            <nav class="seccion">
                 <h2>CONTACTO:</h2>
                 <P>d.carvajal_13@hotmail.com</P>
                 <P>Cra falsa n° 1234</P>
                 <P>+57 (5) 9996669</P>
-            </div>
-            <div id="caja2" class="Cajafooter">
+            </nav>
+            <nav class="seccion">
                 <h2>TERMINOS:</h2>
                 <P>Fotos de calidad, estilo y elegancia!!!</P>
-            </div>
-            <div id="caja3" class="Cajafooter">
-                <h2>REDES SOCIALES:</h2>
-                <img id="facebbok" class="iconored" src="imagenes/icono_Facebook.png">
-                <p>Facebook/fotografounico</p>
-                <img id="instagram" class="iconored" src="imagenes/icono_instagram.png">
-                <p>Instagram/fotografounico</p>
-                <img id="twitter" class="iconored" src="imagenes/icono_twitter.png">
-                <p>Twitter/fotografounico</p>
-            </div>
-            <div id="caja4" class="Cajafooter">
+            </nav>
+            <nav class="seccion">
+                <ul>
+                    <h1>Redes Sociales</h1>
+                    <li><i class="fa fa-facebook-official" aria-hidden="true" style="color: #3532A7;"></i> Facebook/fotografounico</li>
+                    <li><i class="fa fa-twitter" aria-hidden="true" style="color: #4FC1E9;"></i> Instagram/fotografounico</li>
+                    <li><i class="fa fa-instagram" aria-hidden="true" style="color: red;"></i> Twitter/fotografounico</li>
+                </ul>
+
+
+            </nav>
+            <nav class="seccion">
                 <P>David Andres® 2018 </P>
-            </div>
+            </nav>
         </footer>
     </div>
 </body>
