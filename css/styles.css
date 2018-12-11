@@ -1,3 +1,7 @@
+*{
+    font-family: 'Dancing Script', cursive;
+}
+
 .flex-container{
     width:100%;
     max-width:1366px;
@@ -51,7 +55,7 @@ header ul{
   header{
       width: 100%;
       height:auto;
-      background-color:cadetblue;
+      background-color:#5B7685;
       border-radius: 10px 10px 0px 0px;
       overflow:hidden;
       text-align:center;
@@ -61,8 +65,10 @@ header ul{
   }
   #cuerpo0{
       background-color:#82c3a6;
-      height:100%;
-      flex: 1 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
   }
   #cuerpo1{
       height:100%;
